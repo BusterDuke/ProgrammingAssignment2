@@ -1,5 +1,16 @@
-## Put comments here that give an overall description of what your
-## functions do
+## R File:     cachematrix.R
+##
+## Author:     Buster Duke
+##
+## Date:       8/23/14
+##
+## Overview:   These functions allow a user to store and access a matrix
+##             and its inverse using get and set functions.  When calculating
+##             the inverse of a matrix, the matrix object is checked to 
+##             determine if the inverse has already computed.  If so, it will
+##             use the 'cached' value; otherwise, it will compute the inverse
+##             and cache the value for future requests.
+## 
 
 ## Write a short comment describing this function
 
